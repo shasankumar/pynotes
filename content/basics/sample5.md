@@ -1,5 +1,5 @@
 ---
-title: Sample1
+title: Sample5
 date: 2025-06-21
 author: Your Name
 cell_count: 4
@@ -7,20 +7,20 @@ score: 0
 ---
 
 ```python
-x = "Little red riding hood sells red apples"
+lst =[23,18,2,25,12,33]
 ```
 
 
 ```python
-y = x.replace("r","?")
+list1 = [0 if x>=20 else x for x in lst]
 ```
 
 
 ```python
-print(y)
+print(list1)
 ```
 
-    Little ?ed ?iding hood sells ?ed apples
+    [0, 18, 2, 0, 12, 0]
 
 
 
